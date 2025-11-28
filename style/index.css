@@ -9,6 +9,9 @@
         text-decoration: none;
     }
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgba(1, 1, 36, 0.986);
     color: white;
@@ -63,7 +66,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hn-right{
-    width: 225px;
+    width: 240px;
     height: 80px;
     margin: 30px auto;
     font-size: 20px;
