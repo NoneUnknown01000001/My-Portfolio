@@ -66,10 +66,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .hn-right{
-    width: 240px;
+    width: 250px;
     height: 80px;
     margin: 30px auto;
-    font-size: 20px;
+    font-size: 18px;
     animation: showhnright 2s 1;
 }
 @keyframes showhnright{
@@ -407,11 +407,12 @@ body {
     width: 100%;
     height: 100%;
 }
+/* here you can every thing about second project */
 .m2s-art2{
     width: 100%;
     height: 800px;
     text-transform: capitalize;
-    margin-top: 60px;
+    margin-top: 120px;
 }
 .m2sa2img-div{
     width: 100%;
