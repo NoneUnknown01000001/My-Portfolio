@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +10,19 @@
 </head>
 <body>
     <!-- in here you can find everything about navbar -->
-     <header>
-        <nav class="head-nav">
-            <div class="hn-left">
-                <h3 class="hnl-name">Said Abdullah 'Asadi'</h3>
-            </div>
+     <header id="home100">
+         <nav class="head-nav">
+             <div class="hn-left">
+                 <h3 class="hnl-name">Said Abdullah 'Asadi'</h3>
+                </div>
+                <a href="#home100" class="up-home-link"><div class="up-home"><img src="./multimedia/icon/icons8_home_512px.png" alt="" style="width: 50px;"></div></a>
             <div class="hn-right">
                 <ul class="hnr-list">
                     <li class="hnr-item">
-                        <a href="" class="hnri-link">Home</a>
+                        <a href="#" class="hnri-link">Home</a>
                     </li>
                     <li class="hnr-item">
-                        <a href="" class="hnri-link">About Me</a>
+                        <a href="#About100" class="hnri-link">About Me</a>
                     </li>
                     <li class="hnr-item">
                         <a href="" class="hnri-link">My Projects</a>
@@ -78,8 +79,9 @@
         </div>
     </header>
     <main>
-        <section class="m1s">
-            
+        <!-- here is the main 1st section that is all about you -->
+        <section class="m1s" id="About100">  
+            <!-- here is the main div that is about you -->
             <div class="m1d">
                 <h2 class="m1t">About Me</h2>
                 <p class="m1d-bio">I started my developemnt journey from Fanaven & Online courses. Through that, I learned to creating best things that everyone imagine it in their mind, but I creat it. Also I love to put my self in the different challenges and learn something from them. Finally, I keep going in this way and want to achieve more things.</p>
@@ -110,6 +112,7 @@
                     </li>
                 </ul>
             </div>
+            <!-- here is about every thing that you can do on the main page -->
             <div class="m2d"><ul class="m2d-list">
                 <li class="m2d-item">
                     <img src="./multimedia/icon/icons8_Multiple_Devices_512px.png" alt="" class="m2di-img">
@@ -124,19 +127,72 @@
                     <h3 class="m2di-t">Website Hosting</h3>
                 </li>
             </ul></div>
-            <h2 class="m2t"></h2>
-            <div class="m3d"></div>
-            <div class="m4d"></div>
-            <h3 class="m3t"></h3>
-            <div class="m5d"></div>
-            <div class="m6d"></div>
-            <h3 class="m4t"></h3>
-            <div class="m7d"></div>
-            <div class="m8d"></div>
-            <h3 class="m5t"></h3>
-            <div class="m9d"></div>
-            <div class="m10d"></div>
         </section>
+        <!-- here is the 2sc section that is all about your projects -->
+         <section class="m2s">
+            <article class="m2s-art1">
+                <h2 class="m2sa-title">Projects</h2>
+                <h3 class="m2sa-2title">Wheather Web App</h3>
+                <ul class="m2sa-list">
+                    <li class="m2sa-item">
+                        HTML5
+                    </li>
+                    <li class="m2sa-item">
+                        CSS
+                    </li>
+                    <li class="m2sa-item">
+                        JavaScript
+                    </li>
+                    <li class="m2sa-item">
+                        React.js
+                    </li>
+                </ul>
+                <p class="m2sa-bio">this is a Wheather web app that is here you can see that every thing about the Wheatheris counculoded. also it's conected with a secuer APIs, also by JavaScript and react.js that is used in here you can customize your own Wheather Web App. </p>
+                <div class="m2sal-div">
+                    <a href="#" class="m2sa-link">
+                    View GitHub
+                    </a>
+                    <a href="#" class="m2sa-link">
+                    Visit Site <img src="./multimedia/icon/icons8_linking_500px.png" alt="" class="m2sal-img">
+                    </a>
+                </div>
+               <div class="m2saimg-div">
+                 <img src="./multimedia/img/wheather app.png" alt="" class="m2sa-img">
+            </div>
+            </article>
+            <article class="m2s-art2">
+                <div class="m2sa2img-div">
+                    <img src="./multimedia/img/moive.jpg" alt="" class="m2sa2-img">
+                </div>
+                <div class="m2sa2-details">
+                    <h2 class="m2sa2-title">Movie Web Player</h2>
+                    <ul class="m2sa2-list">
+                        <li class="m2sa2-item">HTML5</li>
+                        <li class="m2sa2-item">CSS</li>
+                        <li class="m2sa2-item">JavaScript</li>
+                        <li class="m2sa2-item">APIs</li>
+                        <li class="m2sa2-item">React.js</li>
+                    </ul>
+                    <p class="m2sa2-bio">
+                        Used a public movie API to build a collection movie list that sorts from A to Z or voice versa. it also counts how amny movies in each container and adds user's favorite movies into another container.
+                    </p>
+                    <div class="m2sa2l-div">
+                    <a href="#" class="m2sa2-link">
+                        View GitHub
+                    </a>
+                    <a href="#" class="m2sa2-link">
+                         View project <img src="./multimedia/icon/icons8_linking_500px.png" alt="" class="m2sa2l-img">
+                    </a>
+                    </div>
+                </div>
+            </article>
+            <article class="m2s-art3">
+
+            </article>
+            <article class="m2s-art4">
+
+            </article>
+         </section>
     </main>
 </body>
 </html>
