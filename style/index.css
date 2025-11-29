@@ -192,7 +192,7 @@ body {
 }
 .hi-img{
     width: 100%;
-    height: 400px;
+    height: 100%;
     border-radius: 50%;
     animation: hiimgboxshodow 5s infinite alternate;
 }
@@ -245,7 +245,7 @@ body {
     width: 100%;
     height: 450px;
     position: relative;
-    margin: 300px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 .m1t{
     font-size: 40px;
@@ -552,6 +552,11 @@ body {
     width: 20px;
     display: inline;
 }
+.m2s-art4{
+    width: 100%;
+    height: 780px;
+    
+}
 /* here is the last part and the footer of the page  */
 footer{
     width: 100%;
@@ -648,21 +653,162 @@ footer{
     
 }
 
+/* here you can find every thing about the tablet size */
+@media (min-width:768px) {
+    body{
+        background-color: rgba(1, 1, 36, 0.986);
+    }
+    header{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .up-home{
+        bottom: 2%;
+        left: 2%;
+    }
+    .head-title{
+        text-align: left;
+        width: 380px;
+        margin-left: 20px;
+        
+    }
+    .headbut{
+        width: 380px;
+        margin-top: 0px;
+        
+    }
+    .head-img{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        right: 30px;
+        top: 80px;
+    }
+    .head-skills{
+        height: 120px;
+    }
+    .m1d{
+        margin-top: 30px;
+        position: relative;
+        height: 300px;
+    }
+    .m1d-bio{
+        width: 350px;
+        height: 200px;
+        margin: 5px 0px 0px 20px;
+        
+        
+    }
+    .m1d-list{
+       width: 350px;
+       height: 150px;
+       margin: 0px;
+       position: absolute;
+        top: 120px;
+        right: 40px;
+    }
+    .m1d-item{
+        display: inline-block;
+        margin: 5px;
+        
+    }
+    .m2d{
+        margin: 0px;
+        width: 350px;
+        height: 300px;
+        margin: 10px auto;
+    }
+    .m2s-art1{
+        height: 830px;
+    }
+    .m2sa-list{
+        text-align: left;
+    }
+    .m2sa-bio{
+        margin: 10px 25px;
+        float: left;
+    }
+    .m2sal-div{
+        width: 350px;
+        float: right;
+        margin: 0px 10px;
+    }
+    .m2saimg-div{
+        height: 450px;
+        margin-top: 5px;
+    }
+    .m2s-art2{
+        margin-top: 10px;
+        height: 800px;
+    }
+    .m2sa2img-div{
+        height: 450px;
+    }
+    .m2sa2-details{
+        margin-top: 10px;
+    }
+    .m2sa2-list{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .m2sa2-bio{
+        margin: 10px 20px;
+        float: left;
+    }
+    .m2sa2l-div{
+        width: 350px;
+        float: right;
+        margin: 0px 30px;
+    }
+    .m2s-art3{
+        margin-top: 20px;
+        height: 700px;
+    }
+    .m2sa3-imgdiv{
+        height: 450px;
+    }
+    .m2sa3-title{
+        margin: 5px 20px;
+    }
+    .m2sa3-list{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .m2sa3-bio{
+        margin: 40px 25px;
+        float: left;
+    }
+    .m2sa3-but{
+        width: 350px;
+        float: right;
+        margin: 20px 20px;
+    }
 
-
-
-
-
-
-
-
-
-
-@media (min-width:748px) {
-    body {
-        background-color: white;
+    footer{
+        margin-top: 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:1160px) {
     body{
         background-color: aqua;
