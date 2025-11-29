@@ -790,27 +790,127 @@ footer{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* here is all about the desktop size */
 @media (min-width:1160px) {
     body{
-        background-color: aqua;
+        background-color: rgba(1, 1, 36, 0.986);
+    }
+    header{
+        position: relative;
+        width: 100%;
+        height: 620px;
+    }
+    .up-home{
+        bottom: 1.5%;
+        left: 1.5%;
+    }
+    .head-nav{
+        height: 100px;
+    }
+    .hn-left{
+        float: left;
+    }
+    .hn-right{
+        width: 700px;
+        height: 80px;
+        float: right;
+    }
+    .head-img{
+        width: 400px;
+        height: 400px;
+        right: 70px;
+        top: 45px;
+    }
+    .head-skills{
+        margin-top: 140px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+    }
+    .m1s{
+        position: relative;
+    }
+    .m1d{
+        height: 500px;
+        width: 400px;
+    }
+    .m1d-list{
+        position: absolute;
+        top: 320px;
+    }
+    .m2d{
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+    .m2s-art1{
+        height: 600px;
+        position: relative;
+        width: 100%;
+    }
+    .m2sal-div{
+        float: none;
+        position: absolute;
+        bottom: 150px;
+    }
+    .m2sa-img{
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        bottom: 5px;
+        right: 20px;
+    }
+    .m2s-art2{
+        height: 600px;
+        position: relative;
+        width: 100%;
+    }
+    .m2sa2img-div{
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        bottom: 5px;
+        right: 25px;
+    }
+    .m2sa2l-div{
+        float: none;
+        position: absolute;
+        bottom: 200px;
+        left: 0px;
+        margin: 5px;
+    }
+    .m2s-art3{
+        height: 600px;
+        position: relative;
+        width: 100%;
+    }
+    .m2sa3-imgdiv{
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        bottom: 5px;
+        right: 25px;
+    }
+    .m2sa3-but{
+        float: none;
+        position: absolute;
+        bottom: 200px;
+        left: 0px;
+        margin: 5px;
+    }
+    .m2s-art4{
+        height: 600px;
+        position: relative;
+        width: 100%;
+    }
+    .foot-form{
+        font-size: 40px;
+    }
+    .foot-input{
+        font-size: 30px;
+    }
+    #foot-text{
+        font-size: 30px;
+        height: 150px;
     }
 }
